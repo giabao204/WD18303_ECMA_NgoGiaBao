@@ -16,18 +16,17 @@ fetch("https://datausa.io/api/data?drilldowns=Nation&measures=Population")
                     </thead>
                     `
 
-            array.forEach(element => {
-                console.log(element);
+            for (let {Nation, Year, Population} of array){
                 child_html += `<tbody>
                         <tr>
                             <td>${cow++}</td>
-                            <td>${element.Nation}</td>
-                            <td>${element.Year}</td>
-                            <td>${element.Population}</td>
+                            <td>${Nation}</td>
+                            <td>${Year}</td>
+                            <td>${Population}</td>
                         </tr>
-                        
-                        </tbody>`
-            })
+                        }
+                        </tbody>`;
+            }
 
             child_html += `</table>`;
             html.innerHTML = child_html;
