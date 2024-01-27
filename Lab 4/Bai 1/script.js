@@ -4,4 +4,4 @@ let promise = new Promise(function (resolve, reject) {
     setTimeout(()=> resolve(2),1000);
 });
 
-promise.then(alert);
+

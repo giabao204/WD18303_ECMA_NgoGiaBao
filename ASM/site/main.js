@@ -72,7 +72,7 @@ fetch("http://localhost:3000/products")
                                 </div>
                             </div>
                             <h6><a class="reset-anchor" href="detail.html">${product.name}</a></h6>
-                            <p class="small text-muted">${product.price}$</p>
+                            <p class="small text-muted">${product.price} đ</p>
                         </div>
                     </div>
                 `;
