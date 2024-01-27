@@ -1,0 +1,42 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "text": "Đây là một bình luận",
+      "id": 1
+    },
+    {
+      "text": "Đây là một bình luận",
+      "id": 2
+    },
+    {
+      "text": "Văn bản bình luận đã được cập nhật",
+      "id": 3
+    },
+    {
+      "text": "Đây là một bình luận",
+      "id": 4
+    },
+    {
+      "text": "Đây là một bình luận",
+      "id": 5
+    },
+    {
+      "text": "Đây là một bình luận mới",
+      "id": 6
+    },
+    {
+      "text": "Đây là một bình luận mới",
+      "id": 7
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
