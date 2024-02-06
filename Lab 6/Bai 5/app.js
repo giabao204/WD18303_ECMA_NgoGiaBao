@@ -11,6 +11,6 @@ apiCaller.getOne(1).then(comment => console.log('Bình luận 1:', comment));
 // apiCaller.create(newComment).then(createdComment => console.log('Bình luận Đã tạo:', createdComment));
 
 // const updatedComment = { text: 'Văn bản bình luận đã được cập nhật' };
-// apiCaller.update(3, updatedComment).then(updated => console.log('Bình luận Đã cập nhật:', updated));
+// apiCaller.update(8, updatedComment).then(updated => console.log('Bình luận Đã cập nhật:', updated));
 
-// apiCaller.delete(6).then(deletedComment => console.log('Bình luận Đã xóa:', deletedComment));
+apiCaller.delete(1).then(deletedComment => console.log('Bình luận Đã xóa:', deletedComment));
